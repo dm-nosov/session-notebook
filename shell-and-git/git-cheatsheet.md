@@ -36,3 +36,11 @@ Uploads all local branch commits to GitHub
 `git pull`
 
 Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull is a combination of git fetch and git merge
+
+# Work withh Branches
+
+To create a new branch, use this command.
+
+`git switch -c {BRANCH-NAME}`
+
+Once you are ready, push the branch to GitHub and create a PR
